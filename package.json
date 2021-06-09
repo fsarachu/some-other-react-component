@@ -1,5 +1,6 @@
 {
   "name": "@fsarachu/some-other-react-component",
+  "private": false,
   "version": "0.0.1",
   "description": "Test publishing scoped react components to npm",
   "main": "dist/index.js",
