@@ -1,0 +1,45 @@
+{
+  "name": "some-other-react-component",
+  "version": "0.0.1",
+  "description": "Test publishing scoped react components to npm",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fsarachu/some-react-component.git"
+  },
+  "author": "Franco Sarachu <fsarachu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fsarachu/some-react-component/issues"
+  },
+  "homepage": "https://github.com/fsarachu/some-react-component#readme",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
