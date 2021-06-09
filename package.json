@@ -1,5 +1,5 @@
 {
-  "name": "some-other-react-component",
+  "name": "@fsarachu/some-other-react-component",
   "version": "0.0.1",
   "description": "Test publishing scoped react components to npm",
   "main": "dist/index.js",
@@ -24,7 +24,6 @@
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2"
   },
-  "dependencies": {},
   "scripts": {
     "start": "webpack --watch",
     "build": "webpack",
